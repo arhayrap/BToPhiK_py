@@ -1,0 +1,15 @@
+name: anal
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - jupyterhub
+  - jupyter
+  - jupyterlab
+  - numpy
+  - "hist[plot]"
+  - coffea
+  - mplhep
+  - matplotlib
+  - XRootD
