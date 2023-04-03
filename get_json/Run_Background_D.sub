@@ -1,0 +1,10 @@
+executable       = Background_D.csh
+arguments        = $(ProcId)
+log              = log/log_$(ClusterId).$(ProcId).log
+output           = output/output_$(ClusterId).$(ProcId).out
+error            = error/error_$(ClusterId).$(ProcId).err
+should_transfer_files   = Yes
++JobFlavour      = "microcentury"
+queue 1850
+# queue 9249
+# queue 50
